@@ -1,5 +1,5 @@
-std-Classical-Tempered-Stable-Distribution
-==========================================
+Estimating a Standard-Classical-Tempered-Stable-Distribution 
+============================================================
 
 Stable distributions have become increasingly popular over the years (especially in the field of Finance) for their robustness and flexibility. For example, they describe asset returns much better than traditional distributions, such as the Normal Distribution. Specifically, Stable Distributions can capture the "fat-tailedness" and "skewness" of returns, allowing practitioners to better estimate risk and model expected behavior. 
 
