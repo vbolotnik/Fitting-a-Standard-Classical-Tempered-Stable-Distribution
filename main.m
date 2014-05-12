@@ -10,8 +10,15 @@ X = pearsrnd(0,1,.7,20,[1,1000]);
 
 I = 1i;
 % set initial values and package into THETA
-lamPos_o = 20;
-lamNeg_o = 100;
+empSkew = skewness(X);
+if empSkew >= 0
+    lamPos_o = 5;
+    lamNeg_o = 20;
+else
+    lamPos_o = 20;
+    lamNeg_o = 5;
+end
+
 alpha_o = 1.4;
 THETA_o = [alpha_o,lamPos_o,lamNeg_o];
 
