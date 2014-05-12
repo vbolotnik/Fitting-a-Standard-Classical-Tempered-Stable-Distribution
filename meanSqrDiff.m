@@ -12,7 +12,7 @@ function [ err ] = meanSqrDiff(X,THETA)
     % interations
     
     du = 0.1;
-    span = -2*pi:du:2*pi;
+    span = -pi:du:pi;
     n = length(span);
     
     % define emperical/sample CF
